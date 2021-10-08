@@ -9,6 +9,8 @@ Main concept used to navigate through the bubble is animation function.
 
 Easy way of doing basic animation's and you can learn the rest from the given code itself.
 
+Can contact me if you are having any problems with the design and stuff.
+
 Below is a demo of how it actually looks like,
 
 
