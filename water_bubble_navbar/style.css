@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: #a8e9e2;
+    color: hsl(0, 0%, 1%);
+    height: 380px;
+    width: 350px;
+  }
+
+  .week a{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: large;
+    color: rgb(88, 125, 230);
+    padding: 5px;
+    text-transform: uppercase;
+    line-height: 22px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+  }
+
+  nav {
+    position: relative;
+    margin: 25px 5px 10px 5px;
+    background: #34495e;
+    height: 35px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(133, 129, 104, 0.568);
+  }
+  
+  nav .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background: #b5dde2;
+    border-radius: 8px;
+    transition: all 1s ease 0s;
+  }
+  nav a:nth-child(1){ /*day*/
+  width: fit-content;
+  }
+  nav .start-home, a:nth-child(1):hover~.animation{
+  width: 45px;
+  border-radius: 40% 60% 46% 54% / 54% 29% 71% 46%;
+  left: 0;
+  }
+  nav a:nth-child(2){/*mon*/
+  width: fit-content;
+  }
+  nav a:nth-child(2):hover~.animation{
+  width: 45px;
+  left: 45px;
+  border-radius: 66% 34% 46% 54% / 47% 44% 56% 53%;
+  }
+  nav a:nth-child(3){/*tue*/
+  width: fit-content;
+  }
+  nav a:nth-child(3):hover~.animation{
+  width: 45px;
+  left: 85px;
+  border-radius: 38% 62% 37% 63% / 47% 38% 62% 53% ;
+  }
+  nav a:nth-child(4){/*wed*/
+  width: fit-content;
+  }
+  nav a:nth-child(4):hover~.animation{
+  width: 44px;
+  left: 126px;
+  border-radius: 52% 48% 61% 39% / 60% 56% 44% 40%;
+  }
+  nav a:nth-child(5){/*thu*/
+  width: fit-content;
+  }
+  nav a:nth-child(5):hover~.animation{
+  width: 44px;
+  left: 169px;
+  border-radius: 52% 48% 68% 32% / 43% 62% 38% 57%;
+  }
+  nav a:nth-child(6){/*fri*/
+  width: fit-content;
+  }
+  nav a:nth-child(6):hover~.animation{
+  width: 43px;
+  left: 211px;
+  border-radius: 41% 59% 42% 58% / 58% 48% 52% 42%;
+  }
+  nav a:nth-child(7){/*sat*/
+  width: fit-content;
+  }
+  nav a:nth-child(7):hover~.animation{
+  width: 45px;
+  left: 249px;
+  border-radius: 55% 45% 52% 48% / 55% 50% 50% 45%;
+  }
+  nav a:nth-child(8){/*sun*/
+  width: fit-content;
+  }
+  nav a:nth-child(8):hover~.animation{
+  width: 42px;
+  border-radius: 55% 45% 76% 24% / 55% 53% 47% 45%;
+  left: 292px;
+  }
+  
