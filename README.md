@@ -8,3 +8,6 @@ Simple navbar designed using html and css.
 Main concept used to navigate through the bubble is animation function.
 
 Easy way of doing basic animation's and you can learn the rest from the given code itself.
+
+Below is a demo of how it actually looks like,
+
