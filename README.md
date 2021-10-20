@@ -5,6 +5,8 @@ Simple navbar designed using html and css.
 
 *No Javascript used.
 
+Here we can change the name to anything we like and add routings to it as I used anchor tags for displaying names so they're clickable. 
+
 Main concept used to navigate through the bubble is animation function.
 
 Easy way of doing basic animation's and you can learn the rest from the given code itself.
